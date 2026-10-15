@@ -1,0 +1,27 @@
+# Java / Spring Boot
+backend/target/
+backend/bin/
+*.class
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Private uploaded files
+uploads/
+
+# IDE files
+.idea/
+.settings/
+.classpath
+.project
+
+# Logs
+*.log
+sample/
+tools/
